@@ -195,6 +195,112 @@ h3,
     z-index: 50;
 }
 
+.modal {
+    margin: auto;
+    position: relative;
+    max-width: 35%;
+    border-radius: 15px;
+    padding: 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)),
+        url("./assets/background_section1.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.modalClose {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    top: 5px;
+    right: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.modalTitle {
+    text-align: center;
+}
+
+.modalTitle p {
+    font-family: "Inter", sans-serif;
+    padding: 10px;
+}
+
+.phoneLogin,
+.googleLogin,
+.githubLogin {
+    font-family: "Inter", sans-serif;
+}
+
+.phoneLogin {
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    background: #ffffff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.iconPhone {
+    margin-right: 10px;
+}
+
+.googleLogin {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    padding: 3px 16px;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.googleText {
+    line-height: 1.2;
+    font-size: 13px;
+}
+
+.accountAvatar {
+    width: 40px;
+}
+
+.secondayAccount{
+    font-size: 12rpx;
+}
+
+.googleLogo {
+    width: 20px;
+    margin-left: auto;
+}
+
+.githubLogin {
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 12px;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.githubLogo {
+    width: 20px;
+}
+
 @media (max-width: 767px) {
     .itemsNavbar ul {
         display: none;
